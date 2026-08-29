@@ -69,7 +69,7 @@ chunk-for-retention/
 
 ## License
 
-Add a license of your choice (e.g. MIT, Apache-2.0) appropriate for your repository.
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
 
 ## Acknowledgements
 
