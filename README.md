@@ -30,8 +30,8 @@ Simply ask, in natural language, for help remembering, studying, or summarizing 
 **If you just want to try it without installing anything:**
 Paste the text (or describe the material) into a conversation with Claude and ask it to break the argument into 3–6 labeled chunks with a connective thread — that is the workflow this skill encodes.
 
-**Installing the packaged skill file (`chunk-for-retention.skill`):**
-Follow your Claude environment's process for adding a custom skill (consult the current Claude documentation, since this workflow may change over time). Once added, the skill activates automatically whenever a request matches its description — no manual invocation required.
+**Installing this skill in Claude:**
+Follow your Claude environment's process for adding a custom skill, pointing it to this repository's `SKILL.md` and `references/` folder (consult the current Claude documentation, since this workflow may change over time). Once added, the skill activates automatically whenever a request matches its description — no manual invocation required.
 
 ## Origin and Scientific Background
 
@@ -61,8 +61,8 @@ The skill's own file structure applies the same principle it teaches: the action
 ```
 chunk-for-retention/
 ├── README.md                          # this file
+├── LICENSE                            # MIT license
 ├── SKILL.md                           # the actionable workflow Claude follows
-├── chunk-for-retention.skill          # packaged, installable skill file
 └── references/
     └── research-foundations.md        # full research background, loaded on demand
 ```
